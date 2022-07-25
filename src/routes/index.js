@@ -3,9 +3,15 @@ import Router from "vue-router"
 
 import home from '@/components/SitesHeader.vue'
 import OpenMovie from '@/components/OpenMovie.vue'
+import MovieList from '@/components/MovieList.vue'
 Vue.use(Router)
 
 const routes = [
+    {
+        path: '/',
+        name: 'movie List',
+        component: MovieList
+    },
     {
         path : "/home",
         component : home,

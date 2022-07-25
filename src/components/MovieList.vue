@@ -1,5 +1,7 @@
 <template>
   <div class="app">
+    <SitesHeader/>
+
     <div class="wrapper" v-if="movies.length">
       <movie-card
         v-for="(movie, index) in movies"
@@ -16,8 +18,9 @@
 
 <script>
 import MovieCard from "@/components/MovieCard.vue";
+import SitesHeader from '@/components/SitesHeader.vue'
 export default {
-  components: { MovieCard },
+  components: { MovieCard, SitesHeader },
   data() {
     return {
       movies: [],
