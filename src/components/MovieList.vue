@@ -48,7 +48,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .loader {
   position: fixed;
   inset: 0;

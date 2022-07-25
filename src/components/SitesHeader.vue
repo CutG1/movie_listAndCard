@@ -18,6 +18,7 @@ export default {};
   font-family: sans-serif;
 }
 body {
+  display: block;
   padding: 0;
   width: 100%;
   background-image: url("@/assets/images/wall.jpg");
